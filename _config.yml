@@ -2,7 +2,7 @@
 title: nocc nocc blog
 description: whimsy in the absense of sanity.
 # Theme
-# remote_theme: Gaohaoyang/gaohaoyang.github.io
+remote_theme: TolgaTatli/Moon
 
 # Markdown / Rendering
 markdown: kramdown
