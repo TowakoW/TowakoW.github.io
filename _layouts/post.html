@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+</head>
+<body>
+
+<!-- Header Section: Pulling data from _config.yml -->
+<header>
+    <div class="header-content">
+        <h1>{{ site.title }}</h1> <!-- Site title from _config.yml -->
+        <p>{{ site.description }}</p> <!-- Site description from _config.yml -->
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Blog Post Content -->
+<article>
+    <h2>{{ page.title }}</h2> <!-- Page title (post title) -->
+    <p><small>Posted on {{ page.date | date: "%B %d, %Y" }}</small></p> <!-- Post date -->
+    <div class="content">
+        {{ content }} <!-- Post content -->
+    </div>
+</article>
+
+</body>
+</html>
