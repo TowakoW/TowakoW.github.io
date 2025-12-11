@@ -1,9 +1,8 @@
 # Vibes
 title: nocc nocc blog
-description: having fun, have fun.
-
+description: whimsy in the absense of sanity.
 # Theme
-remote_theme: Gaohaoyang/gaohaoyang.github.io
+# remote_theme: Gaohaoyang/gaohaoyang.github.io
 
 # Markdown / Rendering
 markdown: kramdown
