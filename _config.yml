@@ -69,3 +69,8 @@ kramdown:
   hard_wrap         : false
   footnote_nr       : 1
   show_warnings     : false
+
+# Vibes
+theme  : Gaohaoyang
+title  : nocc nocc blog
+description  : having fun, have fun.
