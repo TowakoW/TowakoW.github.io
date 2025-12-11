@@ -1,8 +1,8 @@
 # Vibes
-title: nocc nocc blog
+title: noccturnal
 description: whimsy in the absense of sanity.
 # Theme
-remote_theme: TolgaTatli/Moon
+remote_theme: Gaohaoyang/gaohaoyang.github.io
 
 # Markdown / Rendering
 markdown: kramdown
