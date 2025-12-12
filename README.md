@@ -1,4 +1,4 @@
-# noccturnal - blog
+# noccturnal
 Hey! homepage. 
 
 What brought you here? 
